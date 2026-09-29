@@ -1,3 +1,26 @@
+/****
+COLORS:
+COLORS
+COLORS
+
+https://coolors.co/palette/1c473d-01191b-fee9b6-ffb95a-df2b08
+****/
+[data-theme='food']{
+    --color-primary:#1C473D;
+    --color-accent: #FEE9B6;
+    --color-red: #DF2B08;
+    --color-dark: #01191B;
+    --color-orange: #FFB95A;    
+}
+
+
+body {
+    background: var(--color-accent);
+}
+/** HERO **/
+/** HERO **/
+/** HERO **/
+
 .hero-mesh {
     background: url("https://www.thetakeout.com/img/gallery/fast-food-chains-that-serve-the-highest-and-lowest-quality-french-fries/l-intro-1731698603.jpg");
     background-position: center;
