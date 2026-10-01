@@ -11,15 +11,39 @@ https://coolors.co/palette/1c473d-01191b-fee9b6-ffb95a-df2b08
     --color-red: #DF2B08;
     --color-dark: #01191B;
     --color-orange: #FFB95A;    
+    
 }
 
 
 body {
     background: var(--color-accent);
 }
+
+
 /** HERO **/
 /** HERO **/
 /** HERO **/
+
+.hero-title {
+    color: var(--color-primary);
+    text-shadow: 2px 2px 5px var(--color-accent)
+}
+.hero-support {
+    color: white;
+    font-weight: 800;
+    text-shadow: 1px 1px 3px black; 
+}
+
+/********* NAVBAR *********/ 
+/********* NAVBAR *********/
+/********* NAVBAR *********/
+.site-nav-brand {
+    color: var(--color-primary);
+    .is-nav-ready .site-nav.is-stuck {
+    background: color-mix(in oklab, var(--color-base-100) 88%, transparent);
+    backdrop-filter: blur(10px);
+}
+}
 
 .hero-mesh {
     background: url("https://www.thetakeout.com/img/gallery/fast-food-chains-that-serve-the-highest-and-lowest-quality-french-fries/l-intro-1731698603.jpg");
