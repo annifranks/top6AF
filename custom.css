@@ -18,8 +18,13 @@ https://coolors.co/palette/1c473d-01191b-fee9b6-ffb95a-df2b08
 body {
     background: var(--color-accent);
 }
+body, div, p{
+     font-family: "Cause", cursive;
+}
 
-
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Cherry Cream Soda", system-ui;
+}
 /** HERO **/
 /** HERO **/
 /** HERO **/
