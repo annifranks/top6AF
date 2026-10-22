@@ -55,3 +55,9 @@ h1, h2, h3, h4, h5, h6 {
     background-position: center;
     background-size: cover;
 }
+
+/**** METHOD *****/
+#method h2, #method h3 {
+    color: var(--color-red);
+}
+
